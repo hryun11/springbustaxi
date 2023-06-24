@@ -91,4 +91,20 @@ public class Taxi implements Transportation {
     public void changeStatus() {
 
     }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setSpeed(long speed) {
+        this.speed = speed;
+    }
+
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
+
+    public void setDefaultFare(int defaultFare) {
+        this.defaultFare = defaultFare;
+    }
 }
